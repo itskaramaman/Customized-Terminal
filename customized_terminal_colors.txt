@@ -4,13 +4,13 @@
 # Use command source ~.bashrc to apply these changes or simple close and open the terminal again
 
 PS1="\[$(tput bold)\]";                 # Make everything Bold
-PS1+="\[$(tput setaf 166)\]\u"; 	    # Orange user
+PS1+="\[$(tput setaf 166)\]\u"; 	      # Orange user
 PS1+="\[$(tput setaf 15)\] at ";        # White 'at'
-PS1+="\[$(tput setaf 228)\]\h"; 		# Yellow hostname
+PS1+="\[$(tput setaf 228)\]\h"; 		    # Yellow hostname
 PS1+="\[$(tput setaf 15)\]: ";          # White colon
-PS1+="\[$(tput setaf 71)\]\w -> ";		# Green directory
-PS1+="\[$(tput sgr0)\]";				# Making color changed stop
-export PS1;								# Exporting the variable
+PS1+="\[$(tput setaf 71)\]\w -> ";		  # Green directory
+PS1+="\[$(tput sgr0)\]";				        # Making color changed stop
+export PS1;								              # Exporting the variable
 
 # Tips:
 # 1. You can go to https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg to select colors of your
